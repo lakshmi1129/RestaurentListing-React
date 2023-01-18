@@ -1,0 +1,51 @@
+                        React Js - Js library for front end development
+
+
+                - create project - npx create-react-app project-className
+                - features of react js
+                    - virtual DOM 
+                    - component based approach
+                    - jsx - using js xml language for creating react components
+                    - Faster , scalable, flexible 
+                -      Angular                vs            React              vs                vue
+
+                1. Framework of Js(google)              Library(facebook)                      famework (open source community)
+                2. 2016                                 2013                                   2014
+                3. Typescript                           Java Script                            Java Script
+                4. Real DOM                             Virtual DOM                            Virtual DOM   
+                5. Bi Directional Binding               Uni Directional Data Binding           Bi Directional Binding    
+
+
+                - Event Handling
+                -Create component - create a js file its name should start with capital letter
+                        two Types
+                        1. class based components -stateful components
+                        2. function based components -stateless components
+                                use of useState hook to generate state
+                - State :piece of data that can share between components
+                -porps - used to access values from parent in child
+                -to display an array of objects in Html use map
+                - Basic hooks
+                        -useState
+                        -useEffect
+                        -useParams
+                        -useDispatch
+                        -useSelector
+                - How react routing 
+                    =install react-router-dom     -   npm i rect-router-dom
+                        -Route - for set up path component
+                        -morethen one route - Routes
+                        -place Routes in -BrowserRoute
+                - link tag used to redirect from from one page to another
+                - Axios library used to call http request in react
+                -REDUX -State management system
+                        -Avoid props Drilling
+                        -Working
+                                -install - npm i redux react-redux redux-thunk
+                                -create a store.js file in src folder
+                                -provide store to the root component
+                                -create an action for defining the logic to update the state
+                                - using component, we have to dispatch the action
+                                - Create reducer file to hold updated state, whre will we get payload from action file
+                                - Reducer should update state in the store file
+                                - to fetch updated state from store to component it should use useSelector hook
